@@ -1,0 +1,20 @@
+{
+  "name": "bubble-msg",
+  "version": "1.0.0",
+  "description": "bubble-msg是针对通过`<iframe>`嵌套的多个窗口间进行通信的vue插件。当前端项目中存在多层`<iframe>`嵌套，为方便进行层间通信，可以使用此插件。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyaLuck/bubbleMsg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyaLuck/bubbleMsg/issues"
+  },
+  "homepage": "https://github.com/AyaLuck/bubbleMsg#readme"
+}
