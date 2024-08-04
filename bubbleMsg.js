@@ -93,8 +93,8 @@ class BubbleMsg {
   }
 
   // 请求获取信息
-  // 异步请求数据，向某个key发送消息，并等待回复消息，默认10秒超时
-  reqMsg (key, parme, timeOut = 10 * 1000) {
+  // 异步请求数据，向某个key发送消息，并等待回复消息，默认60秒超时
+  reqMsg (key, parme, timeOut = 60 * 1000) {
     let _this = this
     return new Promise((resolve, reject) => {
       let recv, time
@@ -126,4 +126,4 @@ class BubbleMsg {
   }
 }
 
-export default BubbleMsg
+export default new BubbleMsg()
